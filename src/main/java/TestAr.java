@@ -1,19 +1,8 @@
-
 import PageObjects.GooglePage;
 import PageObjects.OraclePage;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.*;
-
-import java.io.*;
-import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
-
-import static org.assertj.core.error.ShouldBeEqualIgnoringCase.shouldBeEqual;
-
 
 public class TestAr extends BaseTest {
 @Test
